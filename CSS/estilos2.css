@@ -1,0 +1,39 @@
+body{
+  margin: 0px; 
+}
+
+nav i{
+  font-size: 0px;
+}
+
+header{ 
+  background-color: rgb(248 159 168);
+  position: sticky;
+  top: 0;
+  opacity: 80%;
+}
+
+header nav{
+  float: right; 
+}
+
+nav ul{
+  display: block;
+  display: flex;
+  position: relative;
+  right: 200px;
+  top: -5px; 
+}
+nav ul li{
+  float: left;
+  margin: 20px;
+}
+nav ul li:hover{
+  background-color: transparent;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none; 
+  font-size: 20px;
+}
+
